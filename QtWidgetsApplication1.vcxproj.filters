@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{e4096007-94c8-4967-a968-b134e748f94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\texture">
+      <UniqueIdentifier>{9400a682-bbd0-4378-9296-d56bbcc23b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\icon">
+      <UniqueIdentifier>{693a9572-502a-4456-96e3-19f63ae7926a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QtWidgetsApplication1.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="QtWidgetsApplication1.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="QtWidgetsApplication1.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="QtWidgetsApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usersManageClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bookClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tableClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqliteOperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addUIClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addBookClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtMyOpenGLWidgetsClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtMyOpenGLWidgetsClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="sqlclass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="usersManageClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="bookClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tableClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addUIClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="addBookClass.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QtMyOpenGLWidgetsClass.ui">
+      <Filter>Header Files</Filter>
+    </QtUic>
+    <QtUic Include="sqlclass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="usersManageClass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="bookClass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="tableClass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addUIClass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addBookClass.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqliteOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="shader\f.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="shader\v.glsl">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="texture\c.jpg">
+      <Filter>Resource Files\texture</Filter>
+    </Image>
+    <Image Include="icon\.png">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="icon\7b78ceea29ae3cd6dbf27aa34bac4892.jpeg">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+    <Image Include="icon\bd2ca828946a79181a7b04b264820cc2(1).jpg">
+      <Filter>Resource Files\icon</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

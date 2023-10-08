@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sqlclassClass</class>
+ <widget class="QMainWindow" name="sqlclassClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1137</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1137</width>
+    <height>857</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1137</width>
+    <height>857</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>图书馆管理系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon/7b78ceea29ae3cd6dbf27aa34bac4892.jpeg</normaloff>icon/7b78ceea29ae3cd6dbf27aa34bac4892.jpeg</iconset>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#tool QToolButton{bord:none;}</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);</string>
+    </property>
+    <widget class="QToolButton" name="userManage">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>161</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>用户管理</string>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="tableManage">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>161</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>借阅记录</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="bookManage">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>161</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;
+color:white;</string>
+     </property>
+     <property name="text">
+      <string>图书管理</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>971</width>
+      <height>841</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
